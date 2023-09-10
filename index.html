@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile-box">
+            <h1 class="profile-name">Salako Taiwo</h1>
+
+            <img src="taiwo.jpg" alt="Salako Taiwo" data-testid="slackDisplayimage" class="profile-pic">
+        </div>
+
+        <div class="profile-details">
+            <h3 class="profile-track"> Track: Front-end</h3>
+        </div>
+
+        <div class="profile-details">
+            <label class="profile-day">Current day : </label> 
+            <span  id="showDay" data-testid="currentDayOfTheWeek"></span>           
+        </div>
+
+        <div class="profile-details">
+            <label class="profile-time">UTC time: </label>
+                <span id="showTime" data-testid="currentUTCTime"></span>
+        </div>
+
+        <div class="profile-det">
+            <a class="profile-link" href="https://github.com/TechElven">Github link</a>
+        </div>
+        
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
